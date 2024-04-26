@@ -1,0 +1,30 @@
+.text{
+    text-align: start;
+}
+
+.imageCap{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    margin-right: 20px;
+} 
+
+caption{
+    caption-side:inherit;
+    text-align: center;
+}
+/* .sub{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+} */
+
+.sub{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    margin: 20px;
+    padding: 20px;
+    border-style:dotted;
+    border-color: rgb(104, 84, 230);
+}

@@ -1,0 +1,15 @@
+.form_group{
+    margin: 5px;
+}
+
+.btn{
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 10%;
+}
+
+.form{
+    margin-top: 300px;
+}

@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(168, 131, 179);
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 7fr 1fr;
+    grid-template-areas:
+        "sd ma ma ma ma ma ma ma"
+        "sm sm sm sm sm sm sm sm"
+        "ft ft ft ft ft ft ft ft";
+    /* background-color: rgb(122, 180, 133); */
+}
+
+.head{
+    background-color: aquamarine;
+    border: 2px solid red;
+    margin: 5px;
+    grid-area: hd;
+}
+
+.side{
+    margin: 5px;
+    margin-top: 30px;
+    grid-area: sd;
+}
+
+.main{
+    color: darkblue;
+    margin: 5px;
+    grid-area: ma;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.foot{
+    margin: 10px;
+    grid-area: ft;
+    align-items: center;
+    padding: 10px;
+}
+
+.social{
+    margin-top: 30px;
+    gap: 5px;
+    grid-area: sm;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    align-items: center;
+    padding: auto;
+}
+
+
+
+.peronalImage{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+} 
+
+caption{
+    caption-side: bottom;
+    text-align: center;
+}
+
+.menu_item{
+    color: white;
+    background-color:darkgray;
+    border: 2px;
+    border-radius: 50%;
+    max-width: 150px;    
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+    color: blueviolet;
+    margin: 20px;
+}
+
+.image{
+    margin: auto;
+    border-radius: 20%;
+}
+
+.start{
+    margin-top:50px;
+}
